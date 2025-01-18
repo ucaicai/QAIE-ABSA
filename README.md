@@ -1,14 +1,14 @@
 # QAIE-ABSA
 QAIE-ABSA
-# [TeMME: Temporal Knowledge Graph Completion using Multi-grade Multivector Embeddings](https://link.springer.com/chapter/10.1007/978-981-96-0125-7_26)
+# [QAIE: LLM-based Quantity Augmentation and Information Enhancement for few-shot Aspect-Based Sentiment Analysis](https://www.sciencedirect.com/science/article/pii/S0306457324002760?dgcid=author)
 
 ## Installation
 
 Create a conda environment with pytorch and scikit-learn :
 
 ```
-conda create --name temme_env python=3.7
-source activate temme_env
+conda create --name QAIE python=3.8
+source activate QAIE
 conda install --file requirements.txt -c pytorch
 ```
 
@@ -49,22 +49,25 @@ python learner.py --dataset wikidata12k --model TeLM --rank 2000 --emb_reg 0.025
 
 ## Acknowledgement
 
-We refer to the code of TeLM. Thanks for their great contributions!
+We refer to the code of QAIE. Thanks for their great contributions!
 
 ## Cite Information
+Lu H, Liu T, Cong R, et al. QAIE: LLM-based Quantity Augmentation and Information Enhancement for few-shot Aspect-Based Sentiment Analysis[J]. Information Processing & Management, 2025, 62(1): 103917.
 
-Lu, H. Y., Yu, H. K., Fan, C., Zhan, Q., Fang, W., & Wu, X. J. (2024, November). TeMME: Temporal Knowledge Graph Completion Using Multi-grade Multivector Embeddings. In Pacific Rim International Conference on Artificial Intelligence (pp. 305-317). Singapore: Springer Nature Singapore.
 ```
-@inproceedings{lu2024temme,
-  title={TeMME: Temporal Knowledge Graph Completion Using Multi-grade Multivector Embeddings},
-  author={Lu, Heng-Yang and Yu, Hao-Kun and Fan, Chenyou and Zhan, Qianyi and Fang, Wei and Wu, Xiao-Jun},
-  booktitle={Pacific Rim International Conference on Artificial Intelligence},
-  pages={305--317},
-  year={2024},
-  organization={Springer}
+@article{lu2025qaie,
+  title={QAIE: LLM-based Quantity Augmentation and Information Enhancement for few-shot Aspect-Based Sentiment Analysis},
+  author={Lu, Heng-yang and Liu, Tian-ci and Cong, Rui and Yang, Jun and Gan, Qiang and Fang, Wei and Wu, Xiao-jun},
+  journal={Information Processing \& Management},
+  volume={62},
+  number={1},
+  pages={103917},
+  year={2025},
+  publisher={Elsevier}
 }
 ```
 
-Contact: yuhaokun@stu.jiangnan.edu.cn
+
+Contact: liutianci@stu.jiangnan.edu.cn
 
 
