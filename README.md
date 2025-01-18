@@ -19,7 +19,7 @@ python3 main.py \
     --model_name_or_path t5-model/base \
     --n_gpu 0 \
     --do_train \
-    --train_batch_size 16 \
+    --train_batch_size 8 \
     --gradient_accumulation_steps 1 \
     --eval_batch_size 16 \
     --learning_rate 3e-4 \
@@ -34,7 +34,7 @@ python3 main.py \
     --model_name_or_path t5-model/base \
     --n_gpu 0 \
     --do_inference \
-    --train_batch_size 16 \
+    --train_batch_size 8 \
     --gradient_accumulation_steps 1 \
     --eval_batch_size 16 \
     --learning_rate 3e-4 \
