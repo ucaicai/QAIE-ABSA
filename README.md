@@ -5,13 +5,14 @@ QAIE-ABSA
 ## Installation
 
 Create a conda environment with pytorch and scikit-learn :
-
 ```
 conda create --name QAIE python=3.8
 source activate QAIE
 conda install --file requirements.txt -c pytorch
+```
 
 ## Train
+```
 python3 main.py \
     --task at \
     --dataset rest15 \
@@ -23,10 +24,10 @@ python3 main.py \
     --eval_batch_size 16 \
     --learning_rate 3e-4 \
     --num_train_epochs 20
-
+```
 
 ## Test
-
+```
 python3 main.py \
     --task at \
     --dataset rest15 \
@@ -38,15 +39,15 @@ python3 main.py \
     --eval_batch_size 16 \
     --learning_rate 3e-4 \
     --num_train_epochs 20
-
+```
 
 ## Acknowledgement
 
 We refer to the code of QAIE. Thanks for their great contributions!
 
 ## Cite Information
-Lu H, Liu T, Cong R, et al. QAIE: LLM-based Quantity Augmentation and Information Enhancement for few-shot Aspect-Based Sentiment Analysis[J]. Information Processing & Management, 2025, 62(1): 103917.
 
+Lu H, Liu T, Cong R, et al. QAIE: LLM-based Quantity Augmentation and Information Enhancement for few-shot Aspect-Based Sentiment Analysis[J]. Information Processing & Management, 2025, 62(1): 103917.
 ```
 @article{lu2025qaie,
   title={QAIE: LLM-based Quantity Augmentation and Information Enhancement for few-shot Aspect-Based Sentiment Analysis},
@@ -59,8 +60,6 @@ Lu H, Liu T, Cong R, et al. QAIE: LLM-based Quantity Augmentation and Informatio
   publisher={Elsevier}
 }
 ```
-
-
 Contact: liutianci@stu.jiangnan.edu.cn
 
 
